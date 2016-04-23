@@ -3,7 +3,7 @@ package edu.csula.datascience.jsouptest;
 public class BasketballObject {
 	
 	private String team;
-	private int games_played;
+	private double games_played;
 	private double points_per_game;
 	private double field_goal_made;
 	private double field_goal_attempted;
@@ -18,7 +18,7 @@ public class BasketballObject {
 	public BasketballObject() {
 	}
 	
-	public BasketballObject(String team, int games_played,
+	public BasketballObject(String team, double games_played,
 			double points_per_game, double field_goal_made,
 			double field_goal_attempted, double field_goal_percentage,
 			double three_points_made, double three_points_attempted,
@@ -44,10 +44,10 @@ public class BasketballObject {
 	public void setTeam(String team) {
 		this.team = team;
 	}
-	public int getGames_played() {
+	public double getGames_played() {
 		return games_played;
 	}
-	public void setGames_played(int games_played) {
+	public void setGames_played(double games_played) {
 		this.games_played = games_played;
 	}
 	public double getPoints_per_game() {
